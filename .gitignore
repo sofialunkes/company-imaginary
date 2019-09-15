@@ -1,5 +1,6 @@
 .gradle
 /build/
+.ideia/
 
 .DS_Store
 
