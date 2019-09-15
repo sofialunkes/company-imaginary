@@ -1,7 +1,7 @@
 package com.sofia.config
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+import org.springframework.boot.builder.SpringApplicationBuilder
 import org.springframework.cloud.config.server.EnableConfigServer
 
 @SpringBootApplication
@@ -9,5 +9,5 @@ import org.springframework.cloud.config.server.EnableConfigServer
 class ConfigApplication
 
 fun main(args: Array<String>) {
-	runApplication<ConfigApplication>(*args)
+	SpringApplicationBuilder(ConfigApplication::class.java).run(*args)
 }
