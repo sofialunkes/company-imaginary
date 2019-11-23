@@ -1,4 +1,4 @@
-package com.sofia.organization
+package com.sofia.department
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

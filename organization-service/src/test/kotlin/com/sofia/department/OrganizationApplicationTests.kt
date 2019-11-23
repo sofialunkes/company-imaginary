@@ -1,4 +1,4 @@
-package com.sofia.organization
+package com.sofia.department
 
 import org.junit.Test
 import org.junit.runner.RunWith
